@@ -1,7 +1,17 @@
 import React from "react";
-
-const NewsPage = () => {
-  return <h1>News Page</h1>;
+import News from "../containers/News";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+const HomePage = () => {
+  return (
+    <div className="main">
+      <Header />
+      <div className="container">
+        <News />
+      </div>
+      <Footer />
+    </div>
+  );
 };
 
-export default NewsPage;
+export default HomePage;
