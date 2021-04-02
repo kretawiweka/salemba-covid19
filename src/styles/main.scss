@@ -1,0 +1,23 @@
+@import '~antd/dist/antd.css';
+@import '_normalize';
+@import 'components';
+
+body,
+html {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #f7f7f7;
+}
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.container {
+  margin: 4em 4em 0 4em;
+  flex-basis: auto;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
